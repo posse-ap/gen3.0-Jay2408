@@ -1,0 +1,56 @@
+.a-logo{}
+.a-header{align-items: center;
+    background-color: #fff;
+    display: flex;
+    padding: 15px 24px;}
+
+/* .header-innner{  */
+    /* text-align: le/ft; */
+    /* align-items: left;}} */
+.mokuji-toppage{color:red}
+
+.icon-twitter-around{width:40px; 
+        height: 40px;
+        border-radius: 50%;
+        object-fit: contain;
+        border: 0.5px solid #ce1b1b;
+        background: skyblue;
+        position:absolute ;}
+
+.twitter-icon{  position:relative ;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);};
+
+.icon-instagram-around{width:10px; 
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 0.5px solid #ce1b1b;
+    background: rgb(76, 175, 214);
+    }
+
+.instagram-icon{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);};
+
+.a-footer{margin-top: 80px;
+    justify-content: center;}
+/* .b-footer { */
+        /* border-top: solid 1px #eee;} */
+
+.line__button {
+            background-color: #fff;
+            border-radius: 50px;
+            color: #333;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            line-height: 1.8;
+            max-width: 320px;
+            padding: 12px;
+            position: relative;
+            width: 100%;
+        }
