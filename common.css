@@ -1,0 +1,206 @@
+/* .a-logo{}
+.a-header{align-items: center;
+    background-color: #fff;
+    display: flex;
+    padding: 15px 24px;} */
+
+    .a-header{
+
+    }
+.header-innner{ 
+margin-left: 3px;
+}
+.header-inner-contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .icon-twitter-around{width:40px;  
+        height: 40px;
+        border-radius: 50%;
+        object-fit: contain;
+        border: 0.5px solid #ce1b1b;
+        background: skyblue;
+        position:absolute ;}
+
+.twitter-icon{  position:relative ;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);};
+
+ .icon-instagram-around{width:10px;  
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 0.5px solid #ce1b1b;
+    background: rgb(76, 175, 214);
+    }
+
+/* .instagram-icon{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);};
+
+.a-footer{margin-top: 80px;
+    justify-content: center;} */
+/* .b-footer { */
+        /* border-top: solid 1px #eee;} */
+
+/* .line__button {
+            background-color: #fff;
+            border-radius: 50px;
+            color: #333;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            line-height: 1.8;
+            max-width: 320px;
+            padding: 12px;
+            position: relative;
+            width: 100%;
+        } */
+.a-container{
+    margin: 0 auto;
+    max-width: 1032px;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.a-container-contain{
+
+    background-image: url(./img/bg-line.jpg)  ;
+    background-color:rgba(31, 104, 222, 0.989);
+    background-blend-mode:darken;
+    width: 848px;
+    height: 221px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 48px;
+    overflow: hidden;
+    padding: 68px;
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+/* .a-container-contain-background{
+    background-color: blue;
+} */
+/* .a-container-contain-opacity{
+    opacity: 0.3;
+} */
+.a-container-contain-LINE{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+.line-icon{
+    width: 40px;
+    height: 40px;
+    background-color: azure;
+    margin-right: 8px;
+    margin-top: 15px;
+    
+}
+.line-public{
+    color: white;
+    width: 281px;
+    height: 43px;
+    font-size: 35px;
+    padding-top: 12px;
+    /* margin-top: auto; */
+}
+.a-container-contain p{
+    color: aliceblue;
+            text-align: center;
+            margin-top: 26px;
+}
+
+.line-section{
+    background-color: azure;
+    border-radius: 98px;
+    width: 320px;
+    height: 50px;
+    margin-left: 265px;
+
+}
+.jump-line{
+    width: 10px;
+    height: 10px;
+}
+        /* .picture-line{
+            position: relative;
+            display: flex; 
+            /* display: inline-flex;  */
+            /* background: center / contain no-repeat url("bg-line.jpg"),
+            rgb(16, 16, 16) 35% 
+            background-image: url("bg-line.jpg") ;
+            overflow: hidden;
+            /* background-color: blue;  */
+            /* justify-content: center;
+            border-radius: 30px;
+                }
+            .picture-line-background{ 
+              
+                width: 70%;
+                border-radius: 30px;
+                object-position: 0 100%
+            } 
+         .picture-line p{
+            position: absolute;
+            color: rgb(255, 255, 255);/*文字は白に*/
+            /* display: flex; 
+  
+        .picture-line img {
+           
+            width: 70%;
+            border-radius: 30px;
+            opacity: 0.5;
+            display:block;
+            }   */ */
+
+/*             
+.picture-line{
+    position: relative;
+
+}
+
+.picture-line p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:white;
+}
+.picture-line img{
+    
+} */
+
+.p-line__body{
+    background: #999 url(../bg-line-bg.jpg);
+    background-image: url(bg-line.jpg);
+    width: 700px;
+  height: 500px;
+  
+}
+
+.a-footer-inner{
+    text-align: center;
+    margin-top: 56px;
+}
+.a-footer-link{
+    margin: 15px;
+}
+.twitter-sns-link{
+    width: 20px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.instagram-icon-footer{
+    margin-left: 25px;
+}
+.footer__copyright{
+    text-align: center;
+}
