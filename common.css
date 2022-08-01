@@ -4,24 +4,49 @@
     display: flex;
     padding: 15px 24px;} */
 
-    .a-header{
 
+
+.mokuji-toppage{
+    padding-left: 50px;
+        padding-right: 50px;
+}
+    .a-header{
+display: flex;
+flex-grow: b-header;
+position: fixed;
+z-index: 100;
+background-color: rgb(255, 255, 255);
+margin-top: -300px;
+/* width: max-content; */
     }
+.b-header{
+    width: 714px;
+}
 .header-innner{ 
-margin-left: 3px;
+/* margin-left: 3px; */
+width: 60;
 }
 .header-inner-contain{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-around;
 }
 
- .icon-twitter-around{width:40px;  
+ .icon-twitter-around{
+        /* width:40px;  
         height: 40px;
         border-radius: 50%;
         object-fit: contain;
         border: 0.5px solid #ce1b1b;
         background: skyblue;
-        position:absolute ;}
+        position:absolute  */
+        /* margin-left: 3px
+        margin-right: 3px */
+        margin-top: -8px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        }
 
 .twitter-icon{  position:relative ;
                 top: 50%;
@@ -34,6 +59,7 @@ margin-left: 3px;
     object-fit: contain;
     border: 0.5px solid #ce1b1b;
     background: rgb(76, 175, 214);
+    /* padding-right: 30px; */
     }
 
 /* .instagram-icon{
@@ -60,11 +86,73 @@ margin-left: 3px;
             position: relative;
             width: 100%;
         } */
+
+
+.posse-top-img{
+    width: 1000px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: -450px;
+    position: absolute;
+    z-index: -3;
+}
+
+
+.posse-top{
+    z-index: 2;
+    margin-top: 300px;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(191, 190, 190);
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.posse-top-font{
+    padding-top: 15px;
+    font-size: 17px;
+padding-left: 27px;
+}
+
+.posse-top-font-a{
+    font-size: 68px;
+    padding-left: 25px;
+}
+
 .a-container{
     margin: 0 auto;
     max-width: 1032px;
     padding: 0 24px;
     width: 100%;
+}
+
+.scroll-down{
+    align-items: center;
+    /* bottom: 24px; */
+    display: inline-flex;
+    font-family: "Plus Jakarta Sans", "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    gap: 6px;
+    left: 32px;
+    line-height: 1.5;
+    position: absolute;
+    margin-top: 250px;
+}
+::before, ::after {
+    border-style: solid;
+    border-width: 0;
+    box-sizing: border-box;
+}
+
+.scroll-down::before{
+    background-color: #ccc;
+    border-radius: 8px;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    
 }
 
 .a-container-contain{
@@ -203,4 +291,57 @@ margin-left: 3px;
 }
 .footer__copyright{
     text-align: center;
+}
+.main-section{
+    text-align: center;
+    margin-bottom: -21.440px;
+    margin-top: 300px;
+
+}
+
+.main-section-small{
+    text-align: center;
+    size: 3px;
+    color: rgb(18, 73, 213);
+    /* margin-top: 0; */
+}
+.main-img-contain{
+    text-align: center;
+}
+.mian-img-img{
+    width: 472px;
+    height: 312px;
+    margin-left: 228px;
+    margin-top: 0px;
+    margin-right: 40px;
+    border-radius: 40px;
+    margin-bottom: 150px;
+}
+.section-heading{
+    margin-bottom: -21.440px;
+}
+.main-header{
+    /* margin-top: 100px; */
+    /* margin-top: 300px; */
+    /* padding-top: 400px; */
+    text-align: center;
+}
+.main-section-contain{
+    margin-top: 60.5px;
+    margin-right: 228px;
+     /* width: 472px;
+    height: 175px; */
+}
+.line-footer{
+    width:280px;
+    height: 70px;
+    background-color: rgb(67, 183, 67);
+}
+.line-footer-icon-line{
+    width: 10px;
+    height: 10px;
+}
+.line-footer-icon-arrow{
+    width: 10px;
+    height: 10px;
 }
